@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NankinjoOpener", "NankinjoOpener\NankinjoOpener.csproj", "{5A76A4BC-5643-4CD4-9E4F-B7ED9FF137A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NankinjoOpener.Tests", "NankinjoOpener.Tests\NankinjoOpener.Tests.csproj", "{AD85416A-E8A3-4E11-9C27-D021D9E457C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CF4D6EED-F180-40DC-95E0-2C0344D09BFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8440285D-1CF8-460A-8E74-7191DE2DD07D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup-2.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup-2.ps1
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{9E086137-580B-4123-AE6F-BF12B9494FEE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\NankinjoKey.json = PublishScripts\Templates\NankinjoKey.json
+		PublishScripts\Templates\NankinjoKey.param.dev.json = PublishScripts\Templates\NankinjoKey.param.dev.json
+		PublishScripts\Templates\NankinjoOpener.json = PublishScripts\Templates\NankinjoOpener.json
+		PublishScripts\Templates\NankinjoOpener.param.dev.json = PublishScripts\Templates\NankinjoOpener.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NankinjoKey", "NankinjoKey\NankinjoKey.csproj", "{8C85064A-CD25-43E8-A7C2-5301459FA939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NankinjoKey.Tests", "NankinjoKey.Tests\NankinjoKey.Tests.csproj", "{3B5592AB-98FF-45C6-9F9C-B7F44195D3D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A76A4BC-5643-4CD4-9E4F-B7ED9FF137A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76A4BC-5643-4CD4-9E4F-B7ED9FF137A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76A4BC-5643-4CD4-9E4F-B7ED9FF137A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76A4BC-5643-4CD4-9E4F-B7ED9FF137A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD85416A-E8A3-4E11-9C27-D021D9E457C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD85416A-E8A3-4E11-9C27-D021D9E457C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD85416A-E8A3-4E11-9C27-D021D9E457C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD85416A-E8A3-4E11-9C27-D021D9E457C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C85064A-CD25-43E8-A7C2-5301459FA939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C85064A-CD25-43E8-A7C2-5301459FA939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C85064A-CD25-43E8-A7C2-5301459FA939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C85064A-CD25-43E8-A7C2-5301459FA939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5592AB-98FF-45C6-9F9C-B7F44195D3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5592AB-98FF-45C6-9F9C-B7F44195D3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5592AB-98FF-45C6-9F9C-B7F44195D3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5592AB-98FF-45C6-9F9C-B7F44195D3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8440285D-1CF8-460A-8E74-7191DE2DD07D} = {CF4D6EED-F180-40DC-95E0-2C0344D09BFF}
+		{9E086137-580B-4123-AE6F-BF12B9494FEE} = {CF4D6EED-F180-40DC-95E0-2C0344D09BFF}
+	EndGlobalSection
+EndGlobal

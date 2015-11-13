@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "NankinjoOpener"
+  },
+  "hostingPlanName": {
+    "value": "NankinjoAppServicePlan"
+  },
+  "siteLocation": {
+    "value": "Japan East"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "nankinjodb"
+  },
+  "serverLocation": {
+    "value": "Japan West"
+  },
+  "administratorLogin": {
+    "value": "NankinjoDBUser"
+  },
+  "administratorLoginPassword": {
+    "value": "eWTztyv4x0qTcZD9"
+  },
+  "databaseName": {
+    "value": "NankinjoOpener_db"
+  }
+}

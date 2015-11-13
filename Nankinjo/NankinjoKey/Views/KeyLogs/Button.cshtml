@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+
+    string btnImage = ViewBag.btnImage;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Button</title>
+    <style>
+        p.resizeimage img { 
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align:center;">
+@using (Html.BeginForm("PushButton", "KeyLogs"))
+{
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="btnImage" value="@btnImage" />
+        <p class="resizeimage">
+            <img src="~/Content/images/@(btnImage).png" onclick="submit()" />
+        </p>
+}
+
+@using (Html.BeginForm("RegistCode", "KeyLogs"))
+{
+    @Html.AntiForgeryToken()
+
+    <input type="text" name="keyCode" /><br />
+    <input type="submit" />
+}
+    </div>
+</body>
+</html>
